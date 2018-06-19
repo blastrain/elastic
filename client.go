@@ -918,16 +918,9 @@ func (c *Client) sniffNode(ctx context.Context, url string) []*conn {
 
 	var info NodesInfoResponse
 	if err := json.NewDecoder(res.Body).Decode(&info); err == nil {
-		if len(info.Nodes) > 0 {
-			for nodeID, node := range info.Nodes {
-				if c.snifferCallback(node) {
-					if node.HTTP != nil && len(node.HTTP.PublishAddress) > 0 {
-						url := c.extractHostname(c.scheme, node.HTTP.PublishAddress)
-						if url != "" {
-							nodes = append(nodes, newConn(nodeID, url))
-						}
-					}
-				}
+		if c.snifferCallback(node) {
+			if url != "" {
+				nodes = append(nodes, newConn(nodeID, url))
 			}
 		}
 	}
