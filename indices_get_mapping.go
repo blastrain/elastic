@@ -10,7 +10,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/olivere/elastic/uritemplates"
+	"github.com/knocknote/elastic/uritemplates"
 )
 
 // IndicesGetMappingService retrieves the mapping definitions for an index or

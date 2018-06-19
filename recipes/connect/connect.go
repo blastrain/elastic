@@ -16,7 +16,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/olivere/elastic"
+	"github.com/knocknote/elastic"
 )
 
 func main() {

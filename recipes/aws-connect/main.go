@@ -19,7 +19,7 @@ import (
 	"github.com/olivere/env"
 	"github.com/smartystreets/go-aws-auth"
 
-	"github.com/olivere/elastic"
+	"github.com/knocknote/elastic"
 )
 
 type AWSSigningTransport struct {

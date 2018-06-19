@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/olivere/elastic/uritemplates"
+	"github.com/knocknote/elastic/uritemplates"
 )
 
 // IndicesSegmentsService provides low level segments information that a
