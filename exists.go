@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/olivere/elastic/v7/uritemplates"
+	"github.com/knocknote/elastic/uritemplates"
 )
 
 // ExistsService checks for the existence of a document using HEAD.

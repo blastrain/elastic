@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/olivere/elastic/v7/uritemplates"
+	"github.com/knocknote/elastic/uritemplates"
 )
 
 // IndexService adds or updates a typed JSON document in a specified index,

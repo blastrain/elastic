@@ -25,8 +25,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/olivere/elastic/v7"
-	"github.com/olivere/elastic/v7/config"
+	"github.com/knocknote/elastic"
+	"github.com/knocknote/elastic/config"
 )
 
 func main() {
