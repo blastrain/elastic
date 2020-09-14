@@ -25,8 +25,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/knocknote/elastic"
-	"github.com/knocknote/elastic/config"
+	"github.com/blastrain/elastic"
+	"github.com/blastrain/elastic/config"
 )
 
 func main() {

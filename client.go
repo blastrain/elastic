@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/knocknote/elastic/config"
+	"github.com/blastrain/elastic/config"
 	"github.com/pkg/errors"
 )
 

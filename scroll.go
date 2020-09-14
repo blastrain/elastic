@@ -13,7 +13,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/knocknote/elastic/uritemplates"
+	"github.com/blastrain/elastic/uritemplates"
 )
 
 const (

@@ -13,7 +13,7 @@ import (
 	"reflect"
 	"time"
 
-	elastic "github.com/knocknote/elastic"
+	elastic "github.com/blastrain/elastic"
 )
 
 type Tweet struct {

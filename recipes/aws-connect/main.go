@@ -18,8 +18,8 @@ import (
 	"github.com/olivere/env"
 	awsauth "github.com/smartystreets/go-aws-auth"
 
-	"github.com/knocknote/elastic"
-	"github.com/knocknote/elastic/aws"
+	"github.com/blastrain/elastic"
+	"github.com/blastrain/elastic/aws"
 )
 
 func main() {
