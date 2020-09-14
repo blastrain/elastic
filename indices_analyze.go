@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/knocknote/elastic/uritemplates"
+	"github.com/blastrain/elastic/uritemplates"
 )
 
 // IndicesAnalyzeService performs the analysis process on a text and returns

@@ -12,7 +12,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/knocknote/elastic/uritemplates"
+	"github.com/blastrain/elastic/uritemplates"
 )
 
 // IndicesShrinkService allows you to shrink an existing index into a

@@ -12,7 +12,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/knocknote/elastic/uritemplates"
+	"github.com/blastrain/elastic/uritemplates"
 )
 
 // IndicesSegmentsService provides low level segments information that a

@@ -7,7 +7,7 @@ package elastic_test
 import (
 	"context"
 
-	"github.com/knocknote/elastic"
+	"github.com/blastrain/elastic"
 )
 
 func ExamplePrefixQuery() {

@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/knocknote/elastic/uritemplates"
+	"github.com/blastrain/elastic/uritemplates"
 )
 
 // SearchShardsService returns the indices and shards that a search request would be executed against.

@@ -1,4 +1,4 @@
-module github.com/knocknote/elastic
+module github.com/blastrain/elastic
 
 go 1.12
 

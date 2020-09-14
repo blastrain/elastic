@@ -34,7 +34,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/knocknote/elastic"
+	"github.com/blastrain/elastic"
 	"golang.org/x/sync/errgroup"
 )
 

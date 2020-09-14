@@ -13,7 +13,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/knocknote/elastic/uritemplates"
+	"github.com/blastrain/elastic/uritemplates"
 )
 
 // Search for documents in Elasticsearch.

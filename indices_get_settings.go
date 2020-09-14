@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/knocknote/elastic/uritemplates"
+	"github.com/blastrain/elastic/uritemplates"
 )
 
 // IndicesGetSettingsService allows to retrieve settings of one

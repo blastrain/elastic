@@ -18,7 +18,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/knocknote/elastic"
+	"github.com/blastrain/elastic"
 )
 
 const (
